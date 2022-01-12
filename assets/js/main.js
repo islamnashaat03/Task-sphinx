@@ -4,14 +4,13 @@ $(document).ready(function () {
   $(".loader").fadeOut("slow");
   //  VARIABLES DECLARE
   let listenBtn = document.querySelector(".audio-icon");
-  // let listenAudio = new Audio("/assets/audio/listen-and-point.mp3");
-  let listenAudio = new Audio("/assets/audio/listen-and-point.mp3");
-  let thirstyAudio = new Audio("/assets/audio/thirsty.mp3");
-  let scaredAudio = new Audio("/assets/audio/scared.mp3");
-  let hungryAudio = new Audio("/assets/audio/hungry.mp3");
-  let tiredAudio = new Audio("/assets/audio/tired.mp3");
-  let excitedAudio = new Audio("/assets/audio/excited.mp3");
-  let eduAudio = new Audio("/assets/audio/Educational RC.mp3");
+  let listenAudio = new Audio("assets/audio/listen-and-point.mp3");
+  let thirstyAudio = new Audio("assets/audio/thirsty.mp3");
+  let scaredAudio = new Audio("assets/audio/scared.mp3");
+  let hungryAudio = new Audio("assets/audio/hungry.mp3");
+  let tiredAudio = new Audio("assets/audio/tired.mp3");
+  let excitedAudio = new Audio("assets/audio/excited.mp3");
+  let eduAudio = new Audio("assets/audio/Educational RC.mp3");
   let boxes = document.querySelectorAll(".box");
 
   // START LISTEN AND POINT AUDIO

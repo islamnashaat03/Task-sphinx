@@ -1,7 +1,7 @@
 @import './generic.scss';
 
 .page {
-  transition: all .5ms ease-in-out;
+  transition: all .5s ease-in-out;
   position: relative;
 
   .loader {
@@ -19,16 +19,16 @@
   }
 
   .page-wrapper {
-    transition: all .5ms ease-in-out;
+    transition: all .5s ease-in-out;
     display: flex;
     flex: 1;
     justify-content: center;
     padding: 0 10px;
     transform: scale(0.7);
-    transform-origin: top;
+    transform-origin: left top;
 
     .page-content {
-      transition: all .5ms ease-in-out;
+      transition: all .5s ease-in-out;
 
       .header {
         padding: 20px;
@@ -38,7 +38,7 @@
         align-items: center;
         background-color: #fff;
         margin-bottom: 10px;
-        transition: all .5ms ease-in-out;
+        transition: all .5s ease-in-out;
 
         h1 {
           font-size: calc((32px + (38 - 32) * ((100vw - 1366px) / (1920 - 1366))));
@@ -53,7 +53,7 @@
 
       .content {
         position: relative;
-        transition: all .5ms ease-in-out;
+        transition: all .5s ease-in-out;
         width: 100%;
 
         .background {
@@ -235,7 +235,7 @@
 @media (min-width:1920px) {
   .page {
     .page-wrapper {
-      transform: scale(0.9);
+      transform: scale(0.8);
       transition: all .5s ease-in-out;
     }
   }
